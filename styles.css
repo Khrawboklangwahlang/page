@@ -1,0 +1,139 @@
+body
+{
+    background-color:#FABAAC;
+    
+
+}
+.page
+{
+    width:1527px;
+    height:1215px; 
+    border-style:groove;
+}
+
+.headerpart
+{
+    max-width:1940px;
+    height:380px;
+    border-style:groove;
+    background-color: gray;
+    background-image:url(nongstoin_photoshop.jpg);
+   
+    object-fit:fill;
+
+}
+.linkspart
+{
+    width:1517px;
+    height:30px;
+    margin-top:25px;
+    background-color:green;
+    border-style:groove;
+    text-align:center;
+
+}
+.linkspart a
+{
+    color:rgb(245,246,251);
+    text-decoration:none;
+
+}
+.linkspart a:hover
+{
+    background-color: greenyellow;
+    color:black;
+}
+.bodypart
+{
+    width:1511px;
+    height:786px;
+    border-style:groove;
+    margin-top:5px;
+    margin-left:5px;
+    margin-right:7789px;
+}
+.bodypart .imagepart
+{
+    width:910px;
+    height:499px;
+    border-style:groove;
+    background-image:url('gif1.gif');
+    
+    margin-left:159px;
+    margin-top: 5px;
+    background-image:center;
+    display:inline-block;
+    
+    
+}
+.bodypart .newspart
+{
+    width:262px;
+    height:720px;
+    border-style:groove;
+    float:right;
+    margin-left:5px;
+    margin-right:10px;
+    margin-top:6px;
+}
+
+.bodypart .newspart .news h2
+{
+    color:green;
+    margin-left:98px;
+}
+
+.bodypart .newspart .news
+{
+    width:250px;
+    height:640px;
+    border-style:groove;
+    margin-right:2px;
+    margin-left:2px;
+    
+}
+.footerpart
+{
+    width:1505px;
+    height:25px;
+    margin-top:-1px;
+    background-color:gainsboro;
+    border-style:groove;
+    color:#D30A1D;
+
+
+}
+.hero
+{
+    position:absolute;
+    width:1500px;
+    text-align:center;
+    margin-left:90px;
+    margin-right:150px;
+    margin-top:8px;
+    font-size:140px;
+    border-color: black;
+}
+h1
+{
+    color:rgb(129, 14, 29);
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-top: 50px;
+    text-align:center;
+    border-color: red;
+    margin-left:10px;
+    margin-right:200px;
+    
+}
+.hero .kk h1
+{
+    margin-top:none;
+    color:#450524;
+    border-color: red;
+    display:flex;
+    position:relative;
+    background:rgba(255,255,255, .2 );
+    box-shadow:0 5px 15px rgba(0,0,0, .5);
+}
+

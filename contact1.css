@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+*
+{
+	margin:0;
+	padding:5px;
+	outline:none;
+	box-sizing:border-box;
+
+}
+body
+{
+	background:url("cont.jpg") no-repeat top center;
+	width:100%;
+	height:100vh;
+	background-size:1200px;
+	font-size:16px;
+	font-family:'Open Sans', sans-serif;
+}
+.wrapper
+{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.contact-us
+{
+	width:100%;
+	max-width:500%;
+	height:auto;
+	background:rgba(255,255,255,.2);
+	box-shadow:0 5px 15px rgba(0,0,0,.5);
+	position:relative;
+	padding:40px 50px;
+	border-radius:10px;
+}
+.title
+{
+	font-size:2em;
+	line-height:1.25em;
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:900;
+	letter-spacing:2px;
+	color:#67315A;
+	padding-bottom:15px;
+}
+.input-fields
+{
+	padding:0 30px;
+}
+.input-fields .items
+{
+	width:100%;
+	padding-bottom:15px;
+}
+.input-fields .items .label
+{
+	display:block;
+	font-size:1em;
+	color:#7A1C12;
+	text-transform: capitalize;
+	padding-bottom:5px;
+}
+.input-fields .items .input,
+.input-fields .items .text-area
+{
+	background:transparent;
+	border:0;
+	border:1px solid #ffecb3;
+	width:100%;
+	padding:8px 10px;
+	font-size:1em;
+	color:#790613;
+	border-radius: 3px;
+}
+.btn
+{
+	margin:0 30px;
+	background:#AA5F2E;
+	color:#EABF32;
+	font-size: 10px 0;
+	text-align:center;
+	border-radius:7px;
+	text-transform:uppercase;
+	font-weight:bold;
+	cursor:pointer;
+	letter-spacing:2px;
+}
+.items #msg
+{
+	height:100px;
+}
+@media screen and (max-width:750px)
+{
+	.input-fields
+	{
+		padding:0;
+	}
+}

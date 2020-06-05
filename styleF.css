@@ -1,0 +1,44 @@
+.ss h1
+{
+	color:white;
+	text-align:center;
+	background-color:#2103C3;
+}
+body
+{
+	background-color:#FC9792;
+}
+.gym
+{
+	width:5px;
+}
+.home a:hover
+{
+	background-color:#F8C86E;
+	margin-top:29px;
+	 color:black;
+}
+.home
+{
+	background-color:#F8856E;
+	margin-top:29px;
+	 color:black;
+}
+.indoor a:hover
+{
+	background-color:#F8C86E;
+
+	 color:black;
+}
+.gym a:hover
+{	background-color:#F8C86E;
+	 color:black;
+}
+.indoor
+{
+	padding:15px;
+}
+.gym
+{
+	padding:15px;
+}
